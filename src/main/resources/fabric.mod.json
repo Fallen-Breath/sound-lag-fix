@@ -3,8 +3,8 @@
   "id": "sound-lag-fix",
   "version": "1.0.0",
 
-  "name": "sound lag fix",
-  "description": "Fix permanent fps drop causes by sound system in version from 1.14 to 1.16",
+  "name": "Sound Lag Fix",
+  "description": "Fix permanent fps drop causes by sound system in 1.14 and 1.15",
   "authors": [
     "Fallen_Breath"
   ],
