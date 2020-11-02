@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "sound-lag-fix",
+  "version": "1.0.0",
+
+  "name": "sound lag fix",
+  "description": "Fix permanent fps drop causes by sound system in version from 1.14 to 1.16",
+  "authors": [
+    "Fallen_Breath"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fallen-Breath/sound-lag-fix",
+    "sources": "https://github.com/Fallen-Breath/sound-lag-fix"
+  },
+
+  "icon": "assets/sound-lag-fix/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "sound-lag-fix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.1",
+    "minecraft": ">=1.14 <1.16"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
