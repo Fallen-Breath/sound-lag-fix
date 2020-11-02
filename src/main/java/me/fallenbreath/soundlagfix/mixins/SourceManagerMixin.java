@@ -19,6 +19,7 @@ public class SourceManagerMixin
 	/**
 	 * @author Fallen_Breath
 	 * @reason this.source might be null all the time if Channel#createSource fails
+	 * In that case just mark the source manager as stopped to let the sound system to remove it
 	 */
 	@Inject(method = "isStopped", at = @At("HEAD"))
 	private void nullSourceIsStoppedStateToo(CallbackInfoReturnable<Boolean> cir)
