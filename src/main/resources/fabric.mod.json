@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "sound-lag-fix",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "name": "Sound Lag Fix",
   "description": "Fix permanent fps drop causes by sound system in 1.14 and 1.15",
